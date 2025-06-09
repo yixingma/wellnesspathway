@@ -1,6 +1,6 @@
-===========================
-Hackathon Project: Community Wellness Navigator
-===========================
+
+# Hackathon Project: Community Wellness Navigator
+
 
 
 📅 Event: Data and AI Summit
