@@ -4,6 +4,7 @@
 
 
 📅 Event: Data and AI Summit
+
 🛠️ Team: Wellness Pathway
 - Deepak Sharma
 - Shan Venugopal
@@ -18,12 +19,12 @@
 ---------------------------
 🌟 Vision
 ---------------------------
-AccessEase is an intelligent, AI-powered application designed to help people with disabilities or accessibility needs find suitable accommodations, restaurants, hotels, and Airbnb listings. It ensures that users can confidently plan their travel and daily activities with personalized, accessibility-aware recommendations.
+Wellness Pathway is an intelligent, AI-powered application designed to help people with disabilities or accessibility needs find suitable accommodations, restaurants, hotels, and Airbnb listings. It ensures that users can confidently plan their travel and daily activities with personalized, accessibility-aware recommendations.
 
 ---------------------------
 🧠 Core Technology
 ---------------------------
-Databricks Genie Multi-Agent Framework powers the backend intelligence of AccessEase. The system uses a multi-agent architecture where each agent specializes in a specific domain (e.g., lodging, dining, transportation, accessibility compliance), and they collaborate to fulfill complex user queries.
+Databricks Genie Multi-Agent Framework powers the backend intelligence of Wellness Pathway. The system uses a multi-agent architecture where each agent specializes in a specific domain (e.g., lodging, dining, transportation, accessibility compliance), and they collaborate to fulfill complex user queries.
 
 
 ---------------------------
@@ -42,7 +43,7 @@ Feedback Agent: Collects and learns from user reviews and preferences
 Embeds and indexes structured and unstructured data (e.g., reviews, property descriptions)
 Uses Retrieval-Augmented Generation (RAG) to provide context-aware answers
 4. LLM Integration
-Powered by DBRX for natural language understanding and generation
+Powered by Llama for natural language understanding and generation
 Handles multi-turn conversations and follow-up questions
 
 
@@ -68,7 +69,7 @@ User: “Find me a wheelchair-accessible Airbnb near Pike Place Market with a ro
 Query Agent: Parses the request and delegates to Accommodation + Compliance Agents.
 Accommodation Agent: Searches vector store for matching listings.
 Compliance Agent: Validates accessibility features.
-DBRX: Summarizes and explains the top options conversationally.
+Llama: Summarizes and explains the top options conversationally.
 User: “Which one has the best reviews for cleanliness?”
 Feedback Agent: Retrieves and ranks based on sentiment analysis.
 
@@ -76,8 +77,9 @@ Feedback Agent: Retrieves and ranks based on sentiment analysis.
 ---------------------------
 📊 Demo & Screenshots
 ---------------------------
-[Insert links to demo video, screenshots, or live deployment]
-
+```TODO
+[Insert links to demo video, screenshots, or live deployment] 
+```
 
 ---------------------------
 🔐 Privacy & Ethics
@@ -101,5 +103,5 @@ This project is licensed under the MIT License.
 ---------------------------
 🙌 Acknowledgments
 ---------------------------
-Thanks to [Databricks], [Mentors], and the open data providers who made this project possible.# wellnesspathway
+Thanks to [Databricks], and the open data providers who made this project possible.# wellnesspathway
 databricks DAIS 25' Hackathon
