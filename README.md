@@ -46,6 +46,7 @@ Uses Retrieval-Augmented Generation (RAG) to provide context-aware answers
 Powered by Llama for natural language understanding and generation
 Handles multi-turn conversations and follow-up questions
 
+![Langraph Diagram](resources/assets/img/langraph.png)
 
 ---------------------------
 📦 Installation & Usage
