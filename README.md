@@ -32,63 +32,17 @@ Databricks Genie Multi-Agent Framework powers the backend intelligence of Wellne
 ---------------------------
 
 1. Databricks Genie Agents
-Supervisor Agent: Interprets user intent and routes tasks and collects final answers
-Restaurant Agent: Searches restaurants with accessibility filters
-Hotel Agent: Recommends hotels with wheelchair access, braille menus, etc.
-Airbnb Agent: Verifies ADA or local accessibility compliance for Airbnb
+
+ - Supervisor Agent: Interprets user intent and routes tasks and collects final answers
+ - Restaurant Agent: Searches restaurants with accessibility filters
+ - Hotel Agent: Recommends hotels with wheelchair access, braille menus, etc.
+ - Airbnb Agent: Verifies ADA or local accessibility compliance for Airbnb
 
 2. LLM Integration
 Powered by Llama for natural language understanding and generation
 Handles multi-turn conversations and follow-up questions
 
 ![Langraph Diagram](resources/assets/img/langraph.png)
-
----------------------------
-📦 Installation & Usage
----------------------------
-1. Clone the repository:
-   git clone https://github.com/your-repo/community-wellness-navigator.git
-
-2. Navigate to the project directory:
-   cd community-wellness-navigator
-
-3. Install dependencies:
-   pip install -r requirements.txt
-
-4. Run the app:
-   python app.py
-
----------------------------
-🔄 Example User Flow
----------------------------
-User: “Find me a wheelchair-accessible Airbnb near Pike Place Market with a roll-in shower.”
-Query Agent: Parses the request and delegates to Accommodation + Compliance Agents.
-Accommodation Agent: Searches vector store for matching listings.
-Compliance Agent: Validates accessibility features.
-Llama: Summarizes and explains the top options conversationally.
-User: “Which one has the best reviews for cleanliness?”
-Feedback Agent: Retrieves and ranks based on sentiment analysis.
-
-
----------------------------
-📊 Demo & Screenshots
----------------------------
-```TODO
-[Insert links to demo video, screenshots, or live deployment] 
-```
-
----------------------------
-🔐 Privacy & Ethics
----------------------------
-User data is anonymized and encrypted
-Accessibility data is verified through trusted sources and community feedback
-
----------------------------
-🚀 Future Enhancements
----------------------------
-Real-time accessibility alerts (e.g., elevator outages)
-Integration with public transport APIs
-Community-driven accessibility ratings
 
 
 ---------------------------
