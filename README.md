@@ -2,9 +2,16 @@
 Hackathon Project: Community Wellness Navigator
 ===========================
 
-📅 Event: [Hackathon Name]
-🛠️ Team: [Team Name or Member Names]
-📍 Date: [Submission Date]
+
+📅 Event: Data and AI Summit
+🛠️ Team: Wellness Pathway
+- Deepak Sharma
+- Shan Venugopal
+- Seng Chu
+- Ethan Ma
+
+
+📍 Date: [06/09/2025]
 
 ---------------------------
 📌 Project Overview
@@ -71,5 +78,5 @@ This project is licensed under the MIT License.
 ---------------------------
 🙌 Acknowledgments
 ---------------------------
-Thanks to [Hackathon Organizers], [Mentors], and the open data providers who made this project possible.# wellnesspathway
+Thanks to [Databricks], [Mentors], and the open data providers who made this project possible.# wellnesspathway
 databricks DAIS 25' Hackathon
