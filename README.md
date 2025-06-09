@@ -1,15 +1,15 @@
 
-# Hackathon Project: Community Wellness Navigator
+# Hackathon Project: Wellness Pathway
 
 
 
 📅 Event: Data and AI Summit
 
 🛠️ Team: Wellness Pathway
-- Deepak Sharma
-- Shan Venugopal
-- Seng Chu
-- Ethan Ma
+   - Deepak Sharma
+   - Shan Venugopal
+   - Seng Chu
+   - Ethan Ma
 
 
 📍 Date: [06/09/2025]
