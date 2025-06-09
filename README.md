@@ -13,34 +13,38 @@
 
 📍 Date: [06/09/2025]
 
----------------------------
-📌 Project Overview
----------------------------
-Community Wellness Navigator is an AI-powered assistant designed to improve access to health, wellness, and social support services. Built during [Hackathon Name], this project aims to empower individuals and communities by connecting them with local resources and providing personalized wellness insights.
-
-Key features include:
-- Locating nearby healthcare providers, mental health services, and social programs
-- Analyzing community health trends to identify underserved areas
-- Generating personalized wellness recommendations based on user needs and local data
-- Connecting vulnerable populations with appropriate benefits and services
-- Monitoring healthcare accessibility and quality metrics
+♿ Project Overview: Wellness Pathway – an AI-Powered Accessibility Travel Companion
 
 ---------------------------
-🚀 How It Works
+🌟 Vision
 ---------------------------
-1. **User Input**: Users interact with a chatbot or web interface to describe their needs.
-2. **AI Processing**: The system uses NLP and geolocation to understand the request and match it with local services.
-3. **Data Insights**: Community health data is analyzed to provide context-aware recommendations.
-4. **Output**: Users receive a curated list of services, wellness tips, or alerts about community health trends.
+AccessEase is an intelligent, AI-powered application designed to help people with disabilities or accessibility needs find suitable accommodations, restaurants, hotels, and Airbnb listings. It ensures that users can confidently plan their travel and daily activities with personalized, accessibility-aware recommendations.
 
 ---------------------------
-🧰 Tech Stack
+🧠 Core Technology
 ---------------------------
-- Frontend: React.js
-- Backend: Flask + Python
-- AI/NLP: OpenAI GPT, spaCy
-- Data: Public health datasets, local service directories
-- Tools: Mapbox API, Firebase, GitHub
+Databricks Genie Multi-Agent Framework powers the backend intelligence of AccessEase. The system uses a multi-agent architecture where each agent specializes in a specific domain (e.g., lodging, dining, transportation, accessibility compliance), and they collaborate to fulfill complex user queries.
+
+
+---------------------------
+🧩 Key Components
+---------------------------
+1. User Interface (UI)
+Mobile-first design with voice and text input
+Accessibility-first UX (screen reader support, high contrast, large text)
+2. Databricks Genie Agents
+Query Agent: Interprets user intent and routes tasks
+Accommodation Agent: Searches hotels, Airbnbs, and hostels with accessibility filters
+Dining Agent: Recommends restaurants with wheelchair access, braille menus, etc.
+Compliance Agent: Verifies ADA or local accessibility compliance
+Feedback Agent: Collects and learns from user reviews and preferences
+3. Vector Search + RAG
+Embeds and indexes structured and unstructured data (e.g., reviews, property descriptions)
+Uses Retrieval-Augmented Generation (RAG) to provide context-aware answers
+4. LLM Integration
+Powered by DBRX for natural language understanding and generation
+Handles multi-turn conversations and follow-up questions
+
 
 ---------------------------
 📦 Installation & Usage
@@ -58,17 +62,36 @@ Key features include:
    python app.py
 
 ---------------------------
+🔄 Example User Flow
+---------------------------
+User: “Find me a wheelchair-accessible Airbnb near Pike Place Market with a roll-in shower.”
+Query Agent: Parses the request and delegates to Accommodation + Compliance Agents.
+Accommodation Agent: Searches vector store for matching listings.
+Compliance Agent: Validates accessibility features.
+DBRX: Summarizes and explains the top options conversationally.
+User: “Which one has the best reviews for cleanliness?”
+Feedback Agent: Retrieves and ranks based on sentiment analysis.
+
+
+---------------------------
 📊 Demo & Screenshots
 ---------------------------
 [Insert links to demo video, screenshots, or live deployment]
 
+
 ---------------------------
-💡 Future Improvements
+🔐 Privacy & Ethics
 ---------------------------
-- Expand service coverage to rural and underserved areas
-- Add multilingual support
-- Integrate with wearable health data
-- Enable real-time alerts for community health events
+User data is anonymized and encrypted
+Accessibility data is verified through trusted sources and community feedback
+
+---------------------------
+🚀 Future Enhancements
+---------------------------
+Real-time accessibility alerts (e.g., elevator outages)
+Integration with public transport APIs
+Community-driven accessibility ratings
+
 
 ---------------------------
 📄 License
