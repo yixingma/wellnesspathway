@@ -6,7 +6,7 @@
 📅 Event: Data and AI Summit
 
 🛠️ Team: Wellness Pathway
-   - Deepak Sharma
+   - Deepak Sharma 
    - Shan Venugopal
    - Seng Chu
    - Ethan Ma
@@ -30,19 +30,14 @@ Databricks Genie Multi-Agent Framework powers the backend intelligence of Wellne
 ---------------------------
 🧩 Key Components
 ---------------------------
-1. User Interface (UI)
-Mobile-first design with voice and text input
-Accessibility-first UX (screen reader support, high contrast, large text)
-2. Databricks Genie Agents
-Query Agent: Interprets user intent and routes tasks
-Accommodation Agent: Searches hotels, Airbnbs, and hostels with accessibility filters
-Dining Agent: Recommends restaurants with wheelchair access, braille menus, etc.
-Compliance Agent: Verifies ADA or local accessibility compliance
-Feedback Agent: Collects and learns from user reviews and preferences
-3. Vector Search + RAG
-Embeds and indexes structured and unstructured data (e.g., reviews, property descriptions)
-Uses Retrieval-Augmented Generation (RAG) to provide context-aware answers
-4. LLM Integration
+
+1. Databricks Genie Agents
+Supervisor Agent: Interprets user intent and routes tasks and collects final answers
+Restaurant Agent: Searches restaurants with accessibility filters
+Hotel Agent: Recommends hotels with wheelchair access, braille menus, etc.
+Airbnb Agent: Verifies ADA or local accessibility compliance for Airbnb
+
+2. LLM Integration
 Powered by Llama for natural language understanding and generation
 Handles multi-turn conversations and follow-up questions
 
